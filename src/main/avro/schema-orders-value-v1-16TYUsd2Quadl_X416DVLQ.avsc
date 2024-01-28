@@ -1,0 +1,11 @@
+{
+  "type":"record",
+  "name":"value_orders_event_record",
+  "namespace":"tb.kafka.avro.schemaregistry",
+  "fields":[
+    {"name":"order_id","type":"string","doc":"info"},
+    {"name":"customer_id","type":"string","doc":"info"},
+    {"name":"supplier_id","type":"string","doc":"info"},
+    {"name":"items","type":"int","doc":"info"}
+  ]
+}

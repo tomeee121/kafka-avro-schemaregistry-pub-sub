@@ -1,7 +1,7 @@
 package tb.kafka.avro.schemaregistry;
 
 import lombok.Data;
-import lombok.Value;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
